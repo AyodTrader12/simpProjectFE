@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { TbLockPassword } from "react-icons/tb";
-import  {Link, useNavigate} from "react-router-dom";
+import  { useNavigate} from "react-router-dom";
 import { resetPasswords} from "../../API/userApi";
 import { MdVisibility, MdVisibilityOff } from "react-icons/md";
 import { FaSpinner } from "react-icons/fa6";

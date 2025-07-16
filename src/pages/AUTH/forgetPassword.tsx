@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import { verifyAccount } from '../../API/userApi';
+
 import { forgetPasswords } from '../../API/userApi';
 import { FaSpinner } from "react-icons/fa6";
 import toast,  { Toaster } from 'react-hot-toast';
