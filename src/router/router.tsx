@@ -11,7 +11,7 @@ import Layout from "../layout/layout";
 import HomePage from "../pages/SCREEN/homePage";
 import ForgetPasswordMsg from "../pages/AUTH/forgetPasswordMsg";
 import Dashboard from "../pages/SCREEN/DashBoard";
-import PrivateRoute from "../componenets/privateRoutes";
+// import PrivateRoute from "../componenets/privateRoutes";
 
 export const router = createBrowserRouter([
   {
@@ -37,10 +37,8 @@ export const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <PrivateRoute />,
-    children: [
-      { index: true, element: <Dashboard /> },
-    ],
+    element: <Dashboard />,
+    
   },
 ]);
 export default router;
