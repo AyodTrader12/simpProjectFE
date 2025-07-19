@@ -50,7 +50,7 @@ export const allUSers = async(data:any) => {
     }
 }
 
-export const forgetPasswords = async(data:{}) => {
+export const forgetPasswords = async(data:any) => {
   try {
     return await axios.post(`${url}/forgot-password`,data).then((res) => {
         return res.data
