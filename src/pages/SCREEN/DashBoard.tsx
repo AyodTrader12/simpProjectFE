@@ -60,10 +60,13 @@ const handlelogOut = () => {
                 <User />
                 <span>Users</span>
               </button>
-              <button className="flex items-center space-x-2 hover:bg-blue-700 p-2 rounded w-full">
-                <LogOut />
-                <span>Logout</span>
-              </button>
+              <button
+  onClick={handlelogOut}
+  className="flex items-center space-x-2 hover:bg-blue-700 p-2 rounded w-full"
+>
+  <LogOut />
+  <span>Logout</span>
+</button>
             </nav>
           </div>
         </div>
